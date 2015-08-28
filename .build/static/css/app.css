@@ -1,0 +1,34 @@
+/* line 4, /home/christie/projects/personalsite/.build/static/scss/neat/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 11, /home/christie/projects/personalsite/.build/static/scss/neat/grid/_box-sizing.scss */
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* line 7, /home/christie/projects/personalsite/.build/static/scss/main.scss */
+#outer-container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 20, /home/christie/projects/personalsite/.build/static/scss/bourbon/addons/_clearfix.scss */
+  #outer-container::after {
+    clear: both;
+    content: "";
+    display: table; }
+  /* line 10, /home/christie/projects/personalsite/.build/static/scss/main.scss */
+  #outer-container .container {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%; }
+    /* line 89, /home/christie/projects/personalsite/.build/static/scss/neat/grid/_span-columns.scss */
+    #outer-container .container:last-child {
+      margin-right: 0; }
+
+/*# sourceMappingURL=app.css.map */
