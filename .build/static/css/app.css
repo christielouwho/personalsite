@@ -15,20 +15,26 @@ html {
 #outer-container {
   max-width: 68em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  background-color: white;
+  padding: 25px; }
   /* line 20, /home/christie/projects/personalsite/.build/static/scss/bourbon/addons/_clearfix.scss */
   #outer-container::after {
     clear: both;
     content: "";
     display: table; }
-  /* line 10, /home/christie/projects/personalsite/.build/static/scss/main.scss */
+  /* line 12, /home/christie/projects/personalsite/.build/static/scss/main.scss */
   #outer-container .container {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 82.94039%; }
+    width: 117.05961%; }
     /* line 89, /home/christie/projects/personalsite/.build/static/scss/neat/grid/_span-columns.scss */
     #outer-container .container:last-child {
       margin-right: 0; }
+
+/* line 17, /home/christie/projects/personalsite/.build/static/scss/main.scss */
+body {
+  background-color: #D1D1E0; }
 
 /*# sourceMappingURL=app.css.map */
