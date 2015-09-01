@@ -24,16 +24,25 @@ html {
     content: "";
     display: table; }
   /* line 12, /home/christie/projects/personalsite/static/scss/main.scss */
+  #outer-container .about-me-image {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    /* line 89, /home/christie/projects/personalsite/static/scss/neat/grid/_span-columns.scss */
+    #outer-container .about-me-image:last-child {
+      margin-right: 0; }
+  /* line 16, /home/christie/projects/personalsite/static/scss/main.scss */
   #outer-container .container {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 82.94039%; }
+    width: 100%; }
     /* line 89, /home/christie/projects/personalsite/static/scss/neat/grid/_span-columns.scss */
     #outer-container .container:last-child {
       margin-right: 0; }
 
-/* line 18, /home/christie/projects/personalsite/static/scss/main.scss */
+/* line 21, /home/christie/projects/personalsite/static/scss/main.scss */
 body {
   background-color: #D1D1E0; }
 
